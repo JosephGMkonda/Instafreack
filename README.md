@@ -22,7 +22,7 @@ and interact in a dynamic and engaging way. It leverages the latest technologies
 nd responsive user experience, making it an ideal choice for building social media systems.
 
 The Home Page
-![](images/homepage.png)
+![](Images/homepage.png)
 
 The Profile Page
-![](images/profilepage.png)
+![](Images/profilepage.png)
