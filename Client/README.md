@@ -94,3 +94,7 @@ managing large volumes of data. It is designed to handle unstructured data and p
 Overall, the social media system developed in ReactJS, NodeJS, and MongoDB provides a robust and scalable platform that enables users to connect 
 and interact in a dynamic and engaging way. It leverages the latest technologies to provide a fast a
 nd responsive user experience, making it an ideal choice for building social media systems.
+
+
+homepage.png
+profilepage.png

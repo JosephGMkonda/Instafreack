@@ -1,11 +1,17 @@
 import "../styles/topbar.css";
 import {Search,Person,Chat,Notifications}  from "@material-ui/icons";
+import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { AuthContext } from "../context/AuthContext";
 
 function TopBar() {
+  const {user} = useContext(AuthContext)
   return (
     <div className="topbarContainer">
       <div className="topbarLeft">
+        <Link to="/">
         <span className="logo">Instafreack</span>
+        </Link>
 
       </div>
       <div className="topbarCenter">
@@ -37,8 +43,12 @@ function TopBar() {
             <span className="topbarIconBedge">1</span>
           </div>
         </div>
-
-        <img src="/assets/pictures/profile.jpg" alt="" className="topbarProfile" />
+       {/* <Link to={`/profile/${user.username}`}> */}
+        
+      {/* <img src={user.profilePicture ? user.profilePicture : 
+        "/assets/pictures/profile.jpg"} alt="" className="topbarProfile" /> */}
+        
+        
       </div>
 
 
